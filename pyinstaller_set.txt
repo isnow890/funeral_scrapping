@@ -1,0 +1,3 @@
+pyinstaller --onefile -w --add-binary "chromedriver.exe";"." funeral.py
+
+pyinstaller --onefile funeral.py
