@@ -6,7 +6,6 @@ from .variables import Things
 
 class TelegramSend:
 
-
     def __init__(self, dup_01_total, dup_01_occupied, dup_02_total, dup_02_occupied, dup_01_list_str, dup_02_list_str, text):
         self.dup_01_total = dup_01_total
         self.dup_01_occupied = dup_01_occupied

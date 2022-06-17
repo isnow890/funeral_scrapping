@@ -50,7 +50,9 @@ if (arg_count>1):
 
 #https://pypi.org/project/schedule/
 
+#경과 시간 표시
 schedule.every(1).minutes.do(increase_count)
+#23시와 23시 05분에 작업 실행.
 schedule.every().day.at("23:00").do(d.SetJob)
 schedule.every().day.at("23:05").do(d.SetJob)
 

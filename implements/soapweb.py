@@ -7,7 +7,6 @@ from .variables import Things
 
 # soap 모듈
 
-
 class PassingDataviaSOAP:
     #soap 방식으로 웹서비스 호출함.
     def SetFuneralData(hsp_tp_cd, occupied, total):
