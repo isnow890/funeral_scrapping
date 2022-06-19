@@ -20,7 +20,7 @@ class TelegramSend:
     def Send(self):
         # result = datetime.today().strftime("%Y년 %m월 %d일 %H시 %M분 %S.%f초")
         result = datetime.today().strftime("%Y년 %m월 %d일 %H시 %M분 %S초")
-        tmpstr = f"""⚰️운영 웹서비스에 데이터 전송함
+        tmpstr = f"""운영 웹서비스에 데이터 전송함
 📌전송시간 : {result}
 01 전체/사용중 : {self.dup_01_total}/{self.dup_01_occupied}
 02 전체/사용중 : {self.dup_02_total}/{self.dup_02_occupied}
