@@ -108,7 +108,7 @@ class Doit:
             for a in range(0, len(d_place_02)):
                 # print(f'호실 : {d_place_02[a].get_text()} 사람 : {d_people_02[a].get_text()}')
                 dic_02_2[d_place_02[a].get_text()] = d_people_02[a].get_text()
-                tmp_str_02 += f'\n호실 {d_place_02[a].get_text()} 사람  {d_people_02[a].get_text()}'
+                tmp_str_02 += f'\n {d_place_02[a].get_text()} - {d_people_02[a].get_text()}'
 
             element = driver.find_element_by_xpath("//*[@id='view1']")
             element.screenshot("shot02-2.png")
